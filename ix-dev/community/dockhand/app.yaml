@@ -1,0 +1,42 @@
+app_version: v1.0.6
+capabilities: []
+categories:
+- management
+changelog_url: https://dockhand.pro/#changelog
+date_added: '2026-01-05'
+description: A powerful, intuitive, Docker management platform
+home: https://dockhand.pro/
+host_mounts:
+- description: Docker socket
+  host_path: /var/run/docker.sock
+icon: https://raw.githubusercontent.com/Finsys/dockhand/refs/heads/main/src/images/logo.webp
+keywords:
+- docker
+- compose
+lib_version: 2.1.74
+lib_version_hash: 7ee6d601c170a17717109c91dde4297ae669728a57405cef7f49b8ef931a07d1
+maintainers:
+- email: dev@truenas.com
+  name: truenas
+  url: https://www.truenas.com/
+name: dockhand
+run_as_context:
+- description: Dockhand runs as non-root user.
+  gid: 568
+  group_name: dockhand
+  uid: 568
+  user_name: dockhand
+screenshots:
+- https://dockhand.pro/images/dashboard1.webp
+- https://dockhand.pro/images/stacks4.webp
+- https://dockhand.pro/images/containers12.webp
+- https://dockhand.pro/images/containers50.webp
+- https://dockhand.pro/images/volumes2.webp
+- https://dockhand.pro/images/networks3.webp
+- https://dockhand.pro/images/images3.webp
+sources:
+- https://github.com/Finsys/dockhand
+- https://hub.docker.com/r/fnsys/dockhand
+title: Dockhand
+train: community
+version: 1.0.0

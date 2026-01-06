@@ -1,0 +1,14 @@
+categories:
+- management
+icon_url: https://raw.githubusercontent.com/Finsys/dockhand/refs/heads/main/src/images/logo.webp
+screenshots:
+- https://dockhand.pro/images/dashboard1.webp
+- https://dockhand.pro/images/stacks4.webp
+- https://dockhand.pro/images/containers12.webp
+- https://dockhand.pro/images/containers50.webp
+- https://dockhand.pro/images/volumes2.webp
+- https://dockhand.pro/images/networks3.webp
+- https://dockhand.pro/images/images3.webp
+tags:
+- docker
+- compose
